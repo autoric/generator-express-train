@@ -1,44 +1,45 @@
 {
-  "name": "generator-express-train",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
-  "keywords": [
-    "yeoman-generator"
-  ],
-  "homepage": "https://github.com/autoric/generator-express-train",
-  "bugs": "https://github.com/autoric/generator-express-train/issues",
-  "author": {
-    "name": "Erin Noe-Payne",
-    "email": "erin.noe.payne@gmail.com",
-    "url": "https://github.com/autoric"
-  },
-  "main": "app/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/autoric/generator-express-train.git"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {
-    "yeoman-generator": "~0.14.0",
-    "semver": "~2.2.1",
-    "superagent": "~0.15.7",
-    "lodash": "~2.4.1"
-  },
-  "devDependencies": {
-    "mocha": "~1.14.0"
-  },
-  "peerDependencies": {
-    "yo": ">=1.0.0"
-  },
-  "engines": {
-    "node": ">=0.8.0",
-    "npm": ">=1.2.10"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+    "name": "generator-express-train",
+    "version": "0.0.0",
+    "description": "A Yeoman generator for the express train framework",
+    "keywords": [
+        "yeoman-generator",
+        "express-train"
+    ],
+    "homepage": "https://github.com/autoric/generator-express-train",
+    "bugs": "https://github.com/autoric/generator-express-train/issues",
+    "author": {
+        "name": "Erin Noe-Payne",
+        "email": "erin.noe.payne@gmail.com",
+        "url": "https://github.com/autoric"
+    },
+    "main": "app/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/autoric/generator-express-train.git"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "yeoman-generator": "~0.14.0",
+        "semver": "~2.2.1",
+        "superagent": "~0.15.7",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "~1.14.0"
+    },
+    "peerDependencies": {
+        "yo": ">=1.0.0"
+    },
+    "engines": {
+        "node": ">=0.8.0",
+        "npm": ">=1.2.10"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ]
 }
